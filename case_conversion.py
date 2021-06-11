@@ -14,7 +14,7 @@ def swap(inpLine, gnum):
     binIndex = 0
     overflow = False
     for i in range(strLen):
-        if binIndex < 3:
+        if binIndex < binLen-1:
             if overflow == False:
                 binIndex = i 
             else:
